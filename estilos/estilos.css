@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.img-responsive{
+	width: 380px;
+	max-width: 100%;
+}
+
+.img-responsive2{
+	width: 600px;
+	max-width: 100%;
+}
+
+footer{
+	width: 100%;
+	background: #2CB7F1;
+	padding: 5px;
+}
+
+
+
+.redes a{
+	display: inline-block;
+	background:#02168A;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	position: relative;
+	
+}
+
+
+
+.icono {
+	color: white;
+	text-decoration: none;
+	position: absolute;
+	left: 23px;
+	right: 25px;
+
+}
+
+
+
+.contactenos{
+	margin-top: 80px;
+}
+.imagenes img{
+	width: 250px;
+	display: inline-block;
+	padding: 5px;
+	max-width: 100%;
+	
+}
+.imagenes img:hover{
+	cursor: pointer;
+}
+
+#fila{
+	margin-top: -80px;
+}
+
+.familia{
+	width: 600px;
+	margin-top: 70px;
+	max-width: 100%;
+	
+}
+
+aside img{
+	width: 100%;
+	height: 200px;
+}
+
+.cont-main{
+	box-shadow: 1px 1px 10px #000;
+}
+
+.precio{
+	font-size: 32px;
+}
+
+.traslados{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.imagentraslados{
+	width: 100%;
+	height: 400px;
+	display: block;
+	transition: all 0.5s ease-out;
+}
+
+.cont-traslados{
+	position: absolute;
+	background: rgba(0, 0, 0, 0.5);
+	top: 0;
+	width: 100%;
+	height: 30%;
+	padding: 5px;
+	display: block;
+}
+
+.traslados:hover .imagentraslados{
+	transform: scale(1.2);
+	transition: 0.5s ease-out;
+}
+.img-auto{
+	position: relative;
+	width: 45%;
+	height: 40%;
+	float: right;
+	max-width: 100%;
+}
+
+.cont-traslados h3{
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: -5px;
+}
+
+.cont-traslados p{
+	color: white;
+}
+
+
+
